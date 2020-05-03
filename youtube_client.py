@@ -71,7 +71,7 @@ class YouTubeClient(object):
         video = youtube_dl.YoutubeDL({'quiet': True}).extract_info(
             youtube_url, download=False
         )
-            
+        
         artist = video['artist']
         track = video['track']
         
