@@ -1,6 +1,6 @@
-# Autmate Spotify with Python
+# Automate Spotify with Python
 
-Pulls musics videos from your YouTube playlists and adds them to Spotify
+Pulls music videos from your YouTube playlists and adds them to Spotify
 
 ## Getting Started
 
@@ -30,6 +30,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## YouTube Video Tutorial
 
 
-![Image description](https://imgur.com/9PhXtCd)
+![Image description](https://i.imgur.com/9PhXtCd.jpg)
 
 Link: https://youtu.be/R3XgZ__jQxw
