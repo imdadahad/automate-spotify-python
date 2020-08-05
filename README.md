@@ -23,6 +23,13 @@ pip install -r requirements.txt
 python run.py
 ```
 
+## Common issues
+
+Song and artist fields sometimes come back as None in json response. This can be resolved by setting the youtube_dl User-Agent to Facebook's web crawler:
+```
+youtube_dl.utils.std_headers['User-Agent'] = "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
